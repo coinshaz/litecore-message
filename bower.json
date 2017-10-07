@@ -1,18 +1,18 @@
 {
-  "name": "litecore-message",
-  "main": "./litecore-message.min.js",
+  "name": "unitedcore-message",
+  "main": "./unitedcore-message.min.js",
   "version": "1.0.2",
-  "homepage": "https://github.com/litecoin-project/litecore-message",
+  "homepage": "https://github.com/unitedcoin-project/unitedcore-message",
   "authors": [
     "BitPay"
   ],
-  "description": "Litecoin Message Verification and Signing for Litecore",
+  "description": "Unitedcoin Message Verification and Signing for Unitedcore",
   "moduleType": [
     "globals"
   ],
   "keywords": [
-    "litecoin",
-    "litecore",
+    "unitedcoin",
+    "unitedcore",
     "ltc",
     "satoshi",
     "message",

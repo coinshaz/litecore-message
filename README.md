@@ -1,32 +1,32 @@
-<img src="http://bitcore.io/css/images/module-message.png" alt="litecore message" height="35">
-# Litecoin Message Verification and Signing for Litecore
+<img src="http://bitcore.io/css/images/module-message.png" alt="unitedcore message" height="35">
+# Unitedcoin Message Verification and Signing for Unitedcore
 
 
-[![NPM Package](https://img.shields.io/npm/v/litecore-message.svg?style=flat-square)](https://www.npmjs.org/package/litecore-message)
-[![Build Status](https://img.shields.io/travis/litecoin-project/litecore-message.svg?branch=master&style=flat-square)](https://travis-ci.org/litecoin-project/litecore-message)
-[![Coverage Status](https://img.shields.io/coveralls/litecoin-project/litecore-message.svg?style=flat-square)](https://coveralls.io/r/litecoin-project/litecore-message?branch=master)
+[![NPM Package](https://img.shields.io/npm/v/unitedcore-message.svg?style=flat-square)](https://www.npmjs.org/package/unitedcore-message)
+[![Build Status](https://img.shields.io/travis/unitedcoin-project/unitedcore-message.svg?branch=master&style=flat-square)](https://travis-ci.org/unitedcoin-project/unitedcore-message)
+[![Coverage Status](https://img.shields.io/coveralls/unitedcoin-project/unitedcore-message.svg?style=flat-square)](https://coveralls.io/r/unitedcoin-project/unitedcore-message?branch=master)
 
-litecore-message adds support for verifying and signing litecoin messages in [Node.js](http://nodejs.org/) and web browsers.
+unitedcore-message adds support for verifying and signing unitedcoin messages in [Node.js](http://nodejs.org/) and web browsers.
 
-See [the main litecore repo](https://github.com/litecoin-project/litecore) for more information.
+See [the main unitedcore repo](https://github.com/unitedcoin-project/unitedcore) for more information.
 
 ## Getting Started
 
 ```sh
-npm install litecore-message
+npm install unitedcore-message
 ```
 
 ```sh
-bower install litecore-message
+bower install unitedcore-message
 ```
 
 To sign a message:
 
 ```javascript
-var litecore = require('litecore-lib');
-var Message = require('litecore-message');
+var unitedcore = require('unitedcore-lib');
+var Message = require('unitedcore-message');
 
-var privateKey = litecore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
+var privateKey = unitedcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
 var signature = Message('hello, world').sign(privateKey);
 ```
 
@@ -40,12 +40,12 @@ var verified = Message('hello, world').verify(address, signature);
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/litecoin-project/litecore/blob/master/CONTRIBUTING.md) on the main litecore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/unitedcoin-project/unitedcore/blob/master/CONTRIBUTING.md) on the main unitedcore repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/litecoin-project/litecore/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/unitedcoin-project/unitedcore/blob/master/LICENSE).
 
 Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
-Copyright 2016 The Litecoin Core Developers
+Copyright 2016 The Unitedcoin Core Developers
 
