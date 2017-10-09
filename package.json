@@ -23,7 +23,7 @@
     "url": "https://github.com/unitedcoin-project/unitedcore-message.git"
   },
   "dependencies": {
-    "unitedcore-lib": "^0.13.22"
+    "unitedcore-lib": "^0.13.21"
   },
   "devDependencies": {
     "unitedcore-build": "unitedcoin-project/unitedcore-build",

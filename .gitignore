@@ -9,3 +9,7 @@ tests.js
 
 report
 .DS_Store
+.vs/ProjectSettings.json
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/config/applicationhost.config
